@@ -1,6 +1,9 @@
 import os
 import json
 import pandas as pd
+import psycopg2
+import git
+
 
 path1="/Users/Pugazhenthisk/Desktop/Phonepay./pulse/data/aggregated/transaction/country/india/state"
 agg_tran_list=os.listdir(path1)
